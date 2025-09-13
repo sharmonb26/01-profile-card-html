@@ -1,0 +1,64 @@
+/* Set the page background color and font, center content vertically and horizontally */
+body {
+	background-color: #ffe4e1; /* Light pink background */
+	font-family: 'Segoe UI', Arial, sans-serif; /* Clean, modern font */
+	display: flex; /* Use flexbox for centering */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	min-height: 100vh; /* Full viewport height */
+}
+
+/* Style the profile card container */
+.card {
+	background: #fff; /* White card background */
+	border: 2px solid #e4397d; /* Dark pink border */
+	border-radius: 16px; /* Rounded corners */
+	padding: 32px 24px; /* Space inside the card */
+	box-shadow: 0 2px 8px rgba(228, 57, 125, 0.08); /* Subtle shadow for depth */
+	max-width: 800px; /* Limit card width */
+	width: 100%; /* Responsive width */
+	text-align: center; /* Center all text inside the card */
+}
+
+/* Main heading styles */
+h1 {
+	font-size: 48px; /* Large font size */
+	text-align: center; /* Center text */
+	margin-top: 0; /* Remove default top margin */
+	color: #e4397d; /* Dark pink text */
+}
+
+/* Subheading styles */
+h2 {
+	font-size: 32px; /* Medium font size */
+	text-align: center; /* Center text */
+	margin-top: 16px; /* Space above subheading */
+	color: #555555; /* Darker gray text */
+}
+
+/* Paragraph styles */
+p {
+	text-align: center; /* Center text */
+	font-size: 20px; /* Slightly larger font */
+	line-height: 1.6; /* More space between lines */
+	margin-top: 24px; /* Space above paragraph */
+}
+
+/* Centering for h3 headings */
+h3 {
+	text-align: center; /* Center text */
+}
+
+/* Center the bullet points */
+.card ul {
+	display: block;
+	text-align: center; /* Center the links */
+	margin: 0 auto;
+	padding-left: 0;
+	list-style: none; /* Remove bullet points */
+}
+
+.card ul li {
+	display: block; /* Stack items vertically */
+	margin-bottom: 12px; /* Vertical spacing */
+}
